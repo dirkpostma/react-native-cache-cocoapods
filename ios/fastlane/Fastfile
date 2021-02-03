@@ -21,7 +21,6 @@ platform :ios do
       gym(
         scheme: "ReactNativeCacheCocoapods",
         workspace: "./ReactNativeCacheCocoapods.xcworkspace",
-        # export_method: "ad-hoc",
         configuration: "Release",
         clean: true
       )

@@ -1,9 +1,16 @@
+plugin 'cocoapods-binary'
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 platform :ios, '10.0'
 
 target 'ReactNativeCacheCocoapods' do
+  use_frameworks!
+  all_binary!
+
+  # Uncomment this to disable dsym build
+  # set_custom_xcodebuild_options_for_prebuilt_frameworks "DEBUG_INFORMATION_FORMAT=dwarf"
+
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
