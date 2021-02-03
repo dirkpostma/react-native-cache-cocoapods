@@ -470,7 +470,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCacheCocoapods/Pods-ReactNativeCacheCocoapods-resources.sh\"\n";
+			shellScript = "BUILT_PRODUCTS_DIR=/Users/dirkpostma/development/cache-cocoapods/ReactNativeCacheCocoapods/ios/.local_derived_data/Build/Intermediates.noindex/ArchiveIntermediates/ReactNativeCacheCocoapods/BuildProductsPath/Release-iphoneos \"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCacheCocoapods/Pods-ReactNativeCacheCocoapods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		77BC9865A3FB73C4554F10D0 /* [CP] Check Pods Manifest.lock */ = {
